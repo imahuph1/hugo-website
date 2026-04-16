@@ -2,7 +2,7 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "http://localhost:1313/"
 title: PowerFantasy
-copyright: "© 2024 PowerFantasy. All rights reserved."
+copyright: "© 2026 PowerFantasy. All rights reserved."
 theme: [PaperMod]
 
 enableInlineShortcodes: true
