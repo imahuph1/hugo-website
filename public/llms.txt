@@ -1,9 +1,0 @@
-# PowerFantasy
-
-## Posts
-
-### Echo Legionnaire
-- [Echo Legionnaire Chapter 1](http://localhost:1313/posts/echo/chapter-one/)
-
-### I Accidentally Awakened as a God and Still Failed Group Projects
-- [I Accidentally Awakened as a God and Still Failed Group Projects Chapter 1](http://localhost:1313/posts/shadow/pass-one/)
