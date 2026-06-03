@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://imahuph1.github.io/hugo-website/"
-title: PowerFantasy
-copyright: "© 2026 PowerFantasy. All rights reserved."
+baseURL: "localhost:1313/"
+title: K0MOB
+copyright: "© 2026 K0MOB. All rights reserved."
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -12,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["shadow", "posts", "echo"]
+mainsections: ["about", "posts", "events"]
 
 minify:
   disableXML: true
@@ -32,15 +32,13 @@ languages:
       series: series
     menu:
       main:
+
+        - name: About
+          url: about/
+          weight: 1
         - name: Archive
           url: archives/
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
 
   
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -128,9 +126,9 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Poorly Written Power Fantasy Blog \U0001F44B"
+    Title: "Welcome to the K0MOB website \U0001F44B"
     Content: >
-      👋 Welcome to My poorly written power fantasy's
+      👋 You will find information about the Tri County Ham radio club here
 
 
   # socialIcons:
@@ -148,7 +146,7 @@ params:
   #     url: "https://ko-fi.com/adityatelange"
 
   editPost:
-    URL: "https://github.com/imahuph1/hugo-website/edit/main/content" # edit URL
+    URL: "https://github.com/imahuph1/K0MOB/edit/main/content" # edit URL
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
