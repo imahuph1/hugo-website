@@ -13,7 +13,9 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["about", "posts", "events"]
-
+caches:
+  images:
+    dir: :cacheDir/images
 minify:
   disableXML: true
   # minifyOutput: true
